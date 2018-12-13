@@ -1,0 +1,131 @@
+html,
+body {
+    height: 100%;
+    font-family: 'Noto Serif', serif;
+    overflow-x: hidden;
+}
+img {
+    max-width: 100%;
+}
+button {
+    font-family: 'Noto Serif', serif;
+
+}
+iframe {
+    object-position: center;
+}
+
+
+/* navigation bar */
+.navbar {
+    background-color: white;
+}
+
+.dropdown .btn-primary {
+    color: #000000;
+    background-color: white;
+    border-color: white;
+
+}
+
+
+.navbar-brand img {
+    width: 6rem;
+    height: 6rem;
+}
+.nav-item a {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 600;
+}
+/*cover section*/
+#cover {
+    
+    background: #222 url("../img/ralph.jpg") center center no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    
+}
+
+#cover-caption {
+    width: 100%;
+    margin: auto;
+}
+
+
+
+/*Products section*/
+
+.section-content {
+    padding:5rem 0;
+}
+
+/* jumbotron*/
+ .jumbotron {
+    background: url("../img/disneylandwall.jpg") center center no-repeat;
+    opacity: 1;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+    margin: 2rem;
+    height: 100%;
+}
+
+
+/*Latest movies trailer*/
+
+.carousel-item iframe{
+    padding-right: 2%;
+    padding-bottom: 2%; 
+}
+
+
+.carousel-inner h2 {
+    text-align: justify;
+}
+
+
+/* holidays*/
+
+#holidays h2 {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+/*more about disney*/
+ #more .container {
+     width: 78%;
+     
+ }
+ #more h4 {
+     padding-bottom: 1rem;
+ }
+ 
+
+ 
+/*footer*/
+.item {
+    align-items: right;
+}
+.item i{
+
+    padding-right: 12px;
+    color: #000000;
+    
+}
+
+
+@media screen and (max-width: 620px) {
+    section, header, footer {
+        width: 100%;
+        flex-direction: column;
+    }
+}
